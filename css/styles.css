@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-color: transparent;
+    outline: inherit;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn--transparent {
+    background-color: transparent;
+}
+
+.btn--rounded {
+    border: none;
+    border-radius: 100px;
+}
+
+.icon--rounded {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.header {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #CCFF00;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-logo__image {
+    width: 25px;
+    height: 25px;
+}
+
+.header-logo__text {
+
+}
+
+.header-menu {
+}
+
+.heder-menu__list {
+    vertical-align: bottom;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.header-menu__list-item {
+    vertical-align: bottom;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.header-menu__list-item--selected {
+    border-bottom: 2px solid black;
+}
+
+.header-menu__list-item--nested::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f078";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.header-sidebar {
+
+}
+
+.header-sidebar__login-btn{
+
+}
+
+.header-sidebar__get-started-btn {
+    
+}
+
+.welcome {
+    padding-top: 130px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CCFF00;
+}
+
+.welcome__title {
+    font-size: 64px;
+    line-height: 73px;
+    text-align: center;
+}
+
+.welcome__description {
+    padding: 24px;
+    font-size: 24px;;
+    text-align: center;
+}
+
+.welcome__buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.welcome__get-started-btn {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.welcome__learn-more-btn{
+    border: 2px solid black;
+}
+
+.welcome__learn-more-btn:after {
+    padding-right: 5px;
+    padding-left: 5px;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.partners {
+    padding-top: 52px;
+}
+
+.partners__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.partners-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 64px;
+    flex-wrap: wrap;
+}
+
+.patner-list__item {
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+.explore {
+    padding-top: 80px;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.explore__title_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.explore__title {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.explore__btn {
+    color: white;
+    background-color: black;
+}
+
+.explore__btn::after {
+    padding-right: 5px;
+    padding-left: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    font-weight: 900;
+}
+
+.explore__categories-list {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.explore__categories-list-item {
+    padding: 24px;
+    background-color: #F7F7F7;
+    border-radius: 25px;
+}
+
+.explore__categories-list-item__image {
+    width: 357px;
+    height: 353px;
+    border-radius: 25px;
+}
+
+.card__bottom {
+    height: 110px;
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore__categories-list-item__text {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.explore__categories-list-item__btn {
+   
+}
