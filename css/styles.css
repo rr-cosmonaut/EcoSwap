@@ -203,8 +203,8 @@ body {
 }
 
 .explore__categories-list-item__image {
-    width: 357px;
-    height: 353px;
+    width: 50vh;
+    height: 50vh;
     border-radius: 25px;
 }
 
