@@ -9,6 +9,14 @@ body {
     outline: inherit;
 }
 
+.container {
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 1800px;
+}
+
 .container-fluid {
     padding: 20px;
     margin-right: auto;
@@ -203,8 +211,8 @@ body {
 }
 
 .explore__categories-list-item__image {
-    width: 50vh;
-    height: 50vh;
+    width: 40vh;
+    height: 40vh;
     border-radius: 25px;
 }
 
