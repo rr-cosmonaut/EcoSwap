@@ -11,17 +11,13 @@ body {
 
 .container-fluid {
     width: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 20px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .btn {
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
     background-color: #FFFFFF;
 }
 
@@ -138,10 +134,7 @@ body {
 }
 
 .welcome__get-started-btn {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding: 16px 24px;
 }
 
 .welcome__learn-more-btn{
@@ -149,8 +142,7 @@ body {
 }
 
 .welcome__learn-more-btn:after {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding: 0px 5px;
     display: inline-block;
     font-family: "Font Awesome 5 Free";
     content: "\f061";
@@ -179,8 +171,7 @@ body {
 }
 
 .patner-list__item {
-    padding-left: 42px;
-    padding-right: 42px;
+    padding-left: 0px 42px;
 }
 
 .explore {
