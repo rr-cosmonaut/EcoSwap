@@ -60,13 +60,6 @@ body {
     height: 25px;
 }
 
-.header-logo__text {
-
-}
-
-.header-menu {
-}
-
 .heder-menu__list {
     vertical-align: bottom;
     display: flex;
@@ -93,18 +86,6 @@ body {
     padding-right: 3px;
     vertical-align: middle;
     font-weight: 900;
-}
-
-.header-sidebar {
-
-}
-
-.header-sidebar__login-btn{
-
-}
-
-.header-sidebar__get-started-btn {
-    
 }
 
 .welcome {
@@ -238,8 +219,4 @@ body {
 .explore__categories-list-item__text {
     font-size: 24px;
     font-weight: 400;
-}
-
-.explore__categories-list-item__btn {
-   
 }
