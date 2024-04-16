@@ -10,10 +10,10 @@ body {
 }
 
 .container-fluid {
-    width: 100%;
     padding: 20px;
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
 }
 
 .btn {
@@ -80,12 +80,12 @@ body {
 }
 
 .header-menu__list-item--nested::after {
-    font-family: "Font Awesome 5 Free";
-    content: "\f078";
-    display: inline-block;
     padding-right: 3px;
+    display: inline-block;
     vertical-align: middle;
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
+    content: "\f078";
 }
 
 .welcome {
@@ -143,11 +143,11 @@ body {
 }
 
 .partners-list {
+    padding-top: 64px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
-    padding-top: 64px;
     flex-wrap: wrap;
 }
 
@@ -181,11 +181,11 @@ body {
 .explore__btn::after {
     padding-right: 5px;
     padding-left: 5px;
-    vertical-align: middle;
     display: inline-block;
+    vertical-align: middle;
     font-family: "Font Awesome 5 Free";
-    content: "\f061";
     font-weight: 900;
+    content: "\f061";
 }
 
 .explore__categories-list {
@@ -209,11 +209,11 @@ body {
 }
 
 .card__bottom {
-    height: 110px;
     padding-top: 22px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 110px;
 }
 
 .explore__categories-list-item__text {
