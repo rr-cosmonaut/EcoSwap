@@ -216,7 +216,7 @@ body {
     border-radius: 25px;
 }
 
-.card__bottom {
+.explore__categories-list-item__card-wrapper-bottom {
     padding-top: 22px;
     display: flex;
     justify-content: space-between;
