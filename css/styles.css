@@ -51,7 +51,7 @@ body {
 .header {
     padding-top: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #CCFF00;
 }
@@ -140,7 +140,7 @@ body {
 }
 
 .partners {
-    padding-top: 52px;
+    padding-top: 30px;
 }
 
 .partners__title {
@@ -160,13 +160,10 @@ body {
 }
 
 .patner-list__item {
-    padding-left: 0px 42px;
 }
 
 .explore {
-    padding-top: 80px;
-    padding-left: 95px;
-    padding-right: 95px;
+    padding-top: 20px;
 }
 
 .explore__title_section{
